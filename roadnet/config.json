@@ -1,0 +1,17 @@
+{
+    "model" : {
+        "BACKBONE":             "roadnet-rt",
+        "CLASSES":              "road",
+        "IN_HEIGHT":            280,
+        "IN_WIDTH":             960
+    },
+
+    "train": {
+        "BATCH_SIZE":           12,
+        "LR":                   1e-3,
+        "EPOCHS":               800
+    },
+
+	"valid": {
+	}
+}
