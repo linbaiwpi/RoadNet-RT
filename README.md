@@ -12,6 +12,8 @@ Lightweight and Real-Time Road Segmentation Network
 - h5py==2.10.0
 
 ## How to use
+### Step 0
+Donwload KITTI Dataset for Road Segmentation and put it in the path "../". Or you can modify the dataset path in *roadnet_train.py* and *roadnet_test.py*.
 ### Step 1
 Install the enviroment according to the requirement above.
 ### Step 2
